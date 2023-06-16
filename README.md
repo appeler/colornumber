@@ -16,4 +16,4 @@ We compare how treating the same problem as a classification problem leads to pe
 
 ### Authors
 
-Atul Dhingra and Gaurav Sood
+Gaurav Sood
