@@ -12,7 +12,11 @@ Our input variable is the name string.
 
 We produce the data by grouping data by last_name and producing the data. We then split the data into train/test at 90/10. We use a loss function that is the mean absolute difference across the first 4 categories (to make sure we are not overweighting losses from categories with larger density, e.g., white and because the 5th category is completely explained by the other four). We then fit a transformer model that exploits the sequence of characters to predict the distribution of probabilities. We use dropout for estimating the uncertainty in our predictions.
 
-We compare how treating the same problem as a classification problem leads to performance differences in the performance metric of interest: mean absolute difference across the first 4 categories. 
+We compare how treating the same problem as a classification problem leads to performance differences in the performance metric of interest: mean absolute difference across the first 4 categories.
+
+### Scripts
+
+* [Vanilla Model](notebooks/multioutput_regressor_lastname.ipynb)
 
 ### Authors
 
